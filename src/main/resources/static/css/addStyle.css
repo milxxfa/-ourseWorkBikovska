@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(3, 88, 157);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.adding {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.adding form {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adding form input {
+    width: 500px;
+    height: 50px;
+    margin: 5px;
+    font-size: 18pt;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.adding form input.button {
+    width: 200px;
+    background-color: rgb(1, 186, 192);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.3s ease;
+}
+
+.adding form input.button:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
